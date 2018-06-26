@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="src.main.test.Board_test">
+        <methods>
+          <include name="unique_name_registration_test"/>
+          <include name="check_maximum_player_test"/>
+          <include name="testingdatatypeforuuid"/>
+          <include name="roll_dice_test_for_positive_result"/>
+          <include name="sucessfull_registration"/>
+          <include name="roll_dice_test_for_negative_result"/>
+          <include name="do_deletion_after_removal_must_throw_exception"/>
+        </methods>
+      </class> <!-- src.main.test.Board_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
